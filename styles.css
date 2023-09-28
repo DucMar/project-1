@@ -1,0 +1,104 @@
+body {
+    padding: 0;
+    margin: 0;
+    color: #523739;
+    overflow: hidden;
+}
+
+#first-page {
+    min-height: 100vh;
+    background-image: url("images/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#game-play {
+    display: none;
+}
+
+#game-main {
+    display: flex;
+    background-image: url("images/background-image.webp");
+}
+
+#end-page {
+    display: none;
+    min-height: 100vh;
+    background-image: url('images/cemetery-landscape.jpg');
+    background-size: cover;
+}
+
+#start-button {
+    background-color: #6F8C30;
+    border: none;
+    color: #523739;
+    padding: 35px 65px;
+    border-radius: 12px;
+    width: 450px;
+    font-size: 55px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px #000000;
+    transition-duration: 0.4s;
+}
+
+#start-button:hover {
+    background-color: #523739;
+    color: #6F8C30;
+  }
+
+#restart-button {
+    background-color:#B6F2E7;
+    border: none;
+    color: #03258C;
+    padding: 35px 55px;
+    border-radius: 12px;
+    width: 450px;
+    font-size: 55px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px #2651A6;;
+    transition-duration: 0.4s;
+}
+
+#restart-button:hover {
+    background-color: #03258C;
+    color:#B6F2E7;
+    text-shadow: 2px 2px 4px #347EBF;
+  }
+
+h2,
+h1 {
+    font-size: 40px;
+    text-shadow: 2px 2px 4px #000000;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+.my-header:hover {
+    color: #6F8C30;
+}
+
+#game-main p {
+    font-size: 30px;
+    text-shadow: 2px 2px 4px #000000;
+    font-weight: 700;
+}
+
+.dead {
+    color:#03258C;
+    text-shadow: 2px 2px 4px #347EBF;
+    font-size: 60px;
+}
+
+.the-end {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 90px;
+}
